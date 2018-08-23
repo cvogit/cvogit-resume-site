@@ -9,6 +9,9 @@
 # production
 /build
 
+# profile
+/src/images/profile*
+
 # misc
 .DS_Store
 .env.local

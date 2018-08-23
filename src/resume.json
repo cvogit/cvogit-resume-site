@@ -1,0 +1,25 @@
+{
+	"home": {
+		"name": "Calvin Vo",
+		"email": "cvogit@gmail.com",
+		"github": "https://github.com/cvogit"
+	}, 
+	"about": {
+		"summary": "Full-stack developer with 2+ years of experience working with Amazon web services. Developed with Lumen, ReactJs, Electron, and Magento 2.",
+		"tags": ["ReactJs", "Electron", "Lumen", "PHP", "Javascript", "Css", "Magento 2"]
+	}, 
+	"skills": {
+		"AWS": "Host linux web servers on the cloud.",
+		"Electron": "Deploy desktop applications using web technologies.",
+		"Lumen": "Serve Restful API for business architecture.",
+		"Magento2": "Manage a scalable e-commerce store.",
+		"MySQL": "Manage business data through secured databases.",
+		"ReactJs": 	"Develope reusable components for client applications."
+	}, 
+	"projects": {
+		"project_1": {
+			"name": "",
+			"experience": ""
+		}
+	}
+}

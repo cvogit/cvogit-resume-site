@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
@@ -25,4 +20,186 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 2.5vh 15px;
+  font-size: 6vh;
+  line-height: 2vh;
+  color: #fff !important;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: right;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-fixed-top {
+  min-height: 6vh;
+}
+
+.navbar-nav > li > a {
+  color: #fff !important;
+  font-size: 2vh;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 8vh;
+}
+
+.section-container-responsive {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 5vh 5vw;
+  position: relative;
+  max-width: 1100px;
+}
+
+.section-block {
+  display: table;
+  margin: 10px 5px;
+  position: relative;
+  width: 100%;
+}
+
+.section-block-20 {
+  display: table;
+  float: left;
+  margin: 0;
+  position: relative;
+  width: 20%;
+}
+
+.section-block-33 {
+  display: table;
+  float: left;
+  margin: 0;
+  position: relative;
+  width: 33%;
+}
+
+.section-block-80 {
+  display: table;
+  float: left;
+  margin: 0;
+  position: relative;
+  width: 80%;
+}
+
+.section-title-responsive {
+  float: left;
+  width: 100%;
+}
+
+.section-content-responsive {
+  float: left;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.columns {
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+}
+
+.title {
+  border-bottom: 2px solid orange;
+  font-family: 'opensans';
+  font-size: 32px;
+  color: #ffa73e;
+  margin: auto;
+  padding: 10px;
+  width: fit-content;
+}
+
+.subtitle {
+  font-family: 'opensans';
+  font-size: 18px;
+  color: #000;
+  margin: 20px auto 0px 20px;
+  padding: 10px;
+  text-align: left;
+  width: fit-content;
+}
+
+.card {
+  width: 96%;
+  margin: 2%;
+}
+
+.card-media {
+  background-size: contain !important;
+  min-height: 140px;
+  width: auto;
+}
+
+.card-title {
+  font-weight: bold !important;
+}
+
+.card-typo {
+  color: rgba(123, 21, 3, 0.87);
+  font-size: 14px !important;
+  height: 30px !important;
+}
+
+@media (max-width: 767px) {
+
+    .navbar-fixed-top {
+      min-height: 8vh;
+    }
+
+    .navbar-nav > li > a {
+      line-height: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .navbar-brand {
+      float: left;
+      height: 50px;
+      padding: 12px 15px;
+      font-size: 6vh;
+      line-height: 3vh;
+      color: #fff !important;
+    }
+
+    .main-container-responsive {
+      margin: 0 auto;
+      padding: 5vh 0;
+      position: relative;
+      width: 100vw;
+    }
+
+    .section-block-20 {
+      display: table;
+      float: left;
+      margin: 10px 0;
+      position: relative;
+      width: 100%;
+    }
+
+    .section-block-33 {
+      display: table;
+      float: left;
+      margin: 0;
+      position: relative;
+      width: 100%;
+    }
+
+    .section-block-80 {
+      display: table;
+      float: left;
+      margin: 10px 0;
+      position: relative;
+      width: 100%;
+    }
 }
