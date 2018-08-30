@@ -1,3 +1,29 @@
 .projects {
-	background-color: rgb(49, 113, 107);;
+	background-color: rgb(49, 113, 107);
+}
+
+.project {
+	height: 80vh;
+}
+
+.project-content {
+	background-color: #b1b2b3;
+	height: 28%;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.project-gif {
+	height: 70%;
+	width: 100%;
+}
+
+.bullet-point {
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+.small-asterick{
+	font-size: 10px;
+	margin: 0 10px;
 }

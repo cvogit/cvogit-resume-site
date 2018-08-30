@@ -12,6 +12,25 @@ import './css/App.css';
 import Data from './resume.json';
 
 class App extends Component {
+	constructor(props) {
+		super(props);
+		this.handleScroll = this.handleScroll.bind(this);
+	}
+
+	handleScroll(value) {
+		console.log(value);
+		var element = 'home';
+		if (value === 'about') {
+			element = document.getElementById('about');
+		} else if (value === 'skills') {
+			element = document.getElementById('skills');
+		} else if (value === 'projects') {
+			element = document.getElementById('projects');
+		}
+
+		if (element !== null)
+    	element.scrollIntoView({behavior: 'smooth'});
+	}
 
 	RenderApp = () => {
 		
@@ -26,19 +45,22 @@ class App extends Component {
 					</Navbar.Header>
 					<Navbar.Collapse>
 						<Nav>
-							<NavItem eventKey={1} href="#">
-								Link
+							<NavItem eventKey={1} onClick={() => this.handleScroll('about')}>
+								About
 							</NavItem>
-							<NavItem eventKey={2} href="#">
-								Link
+							<NavItem eventKey={2} onClick={() => this.handleScroll('skills')}>
+								Skills
+							</NavItem>
+							<NavItem eventKey={3} onClick={() => this.handleScroll('projects')}>
+								Projects
 							</NavItem>
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>
 				<Home data={Data.home} />
-				<About data={Data.about} />
-				<Skills data={Data.skills} />
-				<Projects data={Data.projects} />
+				<About id="about" data={Data.about} />
+				<Skills id="skills" data={Data.skills} />
+				<Projects id="projects" data={Data.projects} />
 			</div>
 		);
 	}
