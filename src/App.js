@@ -5,7 +5,7 @@ import Home 	from 	'./components/Home';
 import About 	from './components/About';
 import Skills from './components/Skills';
 import Projects 	from './components/Projects';
-
+import Footer 	from './components/Footer';
 
 import './css/App.css';
 
@@ -61,6 +61,7 @@ class App extends Component {
 				<About id="about" data={Data.about} />
 				<Skills id="skills" data={Data.skills} />
 				<Projects id="projects" data={Data.projects} />
+				<Footer id="projects" data={Data.footer} />
 			</div>
 		);
 	}

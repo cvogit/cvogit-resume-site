@@ -1,0 +1,13 @@
+.footer {
+	background-color: #1b1b1b;
+	height: 20vh;
+}
+
+.footer-right-container {
+	float: right;
+	margin: 0 20px;
+}
+
+.footer-font {
+	color: #fff;
+}
